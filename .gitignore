@@ -1,0 +1,17 @@
+# Local machine files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# IAR generated outputs and local state
+/CC2530/CC2530DB/*/Exe/
+/CC2530/CC2530DB/*/Obj/
+/CC2530/CC2530DB/*/List/
+/CC2530/CC2530DB/settings/
+/CC2530/CC2530DB/*.dep
+
+# Python cache
+__pycache__/
+*.pyc
